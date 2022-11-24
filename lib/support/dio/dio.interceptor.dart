@@ -55,7 +55,7 @@ class CustomInterceptors extends Interceptor {
     }
     await _getPlatformHeader();
     options.headers.addAll({
-      "Accept-Language": PreferenceUtils.getString("heavenly-locale") ?? "ko",
+      "Accept-Language": "ko",
       ...platformHeader,
     });
 
