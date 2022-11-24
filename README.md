@@ -18,6 +18,7 @@ device_info_plus: ^8.0.0
 json_serializable: ^6.2.0   
 json_annotation: ^4.6.0   
 formz: ^0.4.1   
+version: ^3.0.2   
 flutter_svg: ^1.1.0   
 firebase_core: ^2.3.0   
 firebase_remote_config: ^3.0.6   
