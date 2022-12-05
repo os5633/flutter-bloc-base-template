@@ -48,17 +48,6 @@ class _AppViewState extends State<AppView> {
   NavigatorState get _navigator => _navigatorKey.currentState!;
 
   @override
-  void initState() {
-    _init();
-    super.initState();
-  }
-
-  void _init() {
-    topPadding = MediaQuery.of(context).padding.top;
-    size = MediaQuery.of(context).size;
-  }
-
-  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       navigatorKey: _navigatorKey,
