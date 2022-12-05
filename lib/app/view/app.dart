@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_bloc_base_template/app/app.dart';
-import 'package:flutter_bloc_base_template/common/utils/utils.dart';
 import 'package:flutter_bloc_base_template/home/home.dart';
 import 'package:flutter_bloc_base_template/repository/repository.dart';
 import 'package:flutter_bloc_base_template/splash/splash.dart';
