@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:developer';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 import 'package:flutter/foundation.dart';
-import 'package:flutter_bloc_base_template/support/cache/cache.dart';
+import 'package:flutter_bloc_base_template/support/support.dart';
 
 import 'base_repository.dart';
 import 'model/models.dart';
